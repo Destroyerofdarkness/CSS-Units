@@ -1,0 +1,49 @@
+:root
+{
+    --primary-color: black
+    --test: 150px:
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+    background-color: var(--primary-color);
+}
+#div1 {
+  background-color: aqua;
+  height: 200px;
+  flex-grow: 1;
+}
+#div2 {
+  background-color: rgb(255, 35, 156);
+  height: 200px;
+  flex-grow: 1;
+}
+#div3 {
+  background-color: rgb(36, 193, 36);
+  height: 200px;
+  flex-grow: 1;
+}
+#div4 {
+  background-color: rgb(231, 150, 37);
+  height: 200px;
+  flex-grow: 1;
+}
+#div5 {
+  background-color: rgb(233, 94, 94);
+  height: 200px;
+  flex-grow: 1;
+}
+#divmove{
+   display: flex;
+   flex-direction: row;
+   gap: 100px;
+}
+@media only screen and (max-width: 600px)
+{
+    #divmove
+    {
+        display: none;
+    }
+}
